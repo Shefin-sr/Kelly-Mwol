@@ -1,8 +1,8 @@
-/* Amalser Bot
-Re-edit Amalser
+/* KellyMwol Bot
+Re-edit ShefinSir
 */
 
-const Amalser = require('../events');
+const KellyMwol = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -18,7 +18,7 @@ var ddd = ggg.toString('utf-8')
 let whb = Config.WORKTYPE == 'public' ? false : true
 
 Amalser.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
-// send a buttons message!credit Amal
+// send a buttons message!credit Shefin
     const buttons = [
         {buttonId: 'id1', buttonText: {displayText: Config.AMAL_SER }, type: 1},
         {buttonId: 'id2', buttonText: {displayText: Config.AMAL_S }, type: 1}
